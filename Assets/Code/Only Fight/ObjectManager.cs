@@ -71,11 +71,13 @@ public class ObjectManager : MonoBehaviour
             enemyS[index] = Instantiate(enemySPrefab);
             enemyS[index].SetActive(false);
         }
+
         for (int index = 0; index < enemyM.Length; index++)
         {
             enemyM[index] = Instantiate(enemyMPrefab);
             enemyM[index].SetActive(false);
         }
+
         for (int index = 0; index < enemyL.Length; index++)
         {
             enemyL[index] = Instantiate(enemyLPrefab);

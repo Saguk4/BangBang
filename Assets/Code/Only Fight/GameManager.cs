@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 using System.IO;
-using UnityEditor.SceneManagement;
 using static AudioManager;
 
 public class GameManager : MonoBehaviour

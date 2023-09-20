@@ -6,10 +6,6 @@ public class MainAudioManager : MonoBehaviour
 {
     public static MainAudioManager instance;
 
-    [Header("#BGM")]
-    public AudioSource mainBgm;
-    public float bgmVolume;
-
     [Header("#SFX")]
     public AudioClip[] sfxClips;
     public float sfxVolume;
@@ -70,15 +66,5 @@ public class MainAudioManager : MonoBehaviour
 
 
     }
-    //#BGM
-    public void PLayermainBgm()
-    {
-        mainBgm.Play();
-    }
-
-    public void StoperBgm()
-    {
-        mainBgm.Stop();
-    }
-
+ 
 }

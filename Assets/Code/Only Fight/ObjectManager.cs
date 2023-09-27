@@ -65,6 +65,8 @@ public class ObjectManager : MonoBehaviour
 
     void Generatr()
     {
+        
+
         //#Enemy
         for (int index = 0; index < enemyS.Length; index++)
         {
